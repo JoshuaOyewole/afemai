@@ -11,7 +11,6 @@ body{
 }
 
 .booking{
-    height: 60vh;
     background-color: white;
     position: absolute;
     width: 92%;
@@ -22,7 +21,7 @@ body{
 
 .toggleBtn{
     position: absolute;
-    top: 8px;
+    top: 7px;
     right: 1rem;
 }
 

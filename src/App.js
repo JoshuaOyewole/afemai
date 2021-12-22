@@ -1,11 +1,11 @@
-import React, { useState } from 'react'
+import React from 'react'
 import {
   BrowserRouter as Router,
   Routes,
   Route,
 } from "react-router-dom";
 import './App.css';
-import Loading from './components/Loading';
+// import Loading from './components/Loading';
 import About from './pages/About';
 import Home from './pages/Home';
 import Terminals from './pages/Terminals';
@@ -13,13 +13,13 @@ import Contact from './pages/Contact';
 
 
 function App() {
-  const [loading, setLoading] = useState(false);
+  // const [loading, setLoading] = useState(false);
 
   return (
   <Router>
     {
-    loading ? 
-    <Loading /> :
+    // loading ? 
+    // <Loading /> :
     <Routes>
     <Route 
       path="/" 
