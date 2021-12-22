@@ -36,7 +36,7 @@ function Navbar() {
                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h16M4 18h16" />
                     </svg>
                 </button>
-                <ul className="navlist bg-gray-900 text-primary min-h-screen flex flex-col items-center justify-around py-40 md:flex md:flex-row md:min-h-0 md:py-2 md:bg-white md:text-black md:text-xs hidden" ref={navList}>
+                <ul className="navlist bg-gray-900 text-primary min-h-screen flex flex-col items-center justify-around py-40 md:flex md:flex-row md:min-h-0 md:py-2 md:bg-white md:text-black md:text-xs" ref={navList}>
                     <li className='px-3 uppercase'><NavLink to='/' className='nav-item'>Home</NavLink></li>
                     <li className='px-3 uppercase'><NavLink to='/terminals' className='nav-item'>Terminals</NavLink></li>
                     <li className='px-3 uppercase'><NavLink to='/about' className='nav-item'>About</NavLink></li>
