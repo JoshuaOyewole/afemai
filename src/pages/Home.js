@@ -17,7 +17,7 @@ function Home() {
             <section className='min-h-screen bg-gray'>
                 {/* Hello */}
             </section>
-            <section className='min-h-screen bg-silver mt-40'>
+            <section className='min-h-screen mt-40'>
                 <h2 className="header-title text-primary py-10 text-center text-3xl font-bold">
                     Top Available Routes
                 </h2>
