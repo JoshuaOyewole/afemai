@@ -3,14 +3,14 @@ import React from 'react'
 function Booking() {
     return (
         <div className='booking shadow-xl rounded-2xl bg-white lg:mx-40 px-6 pt-6 pb-14'>
-            <div className="flex justify-around header font-semibold mx-auto uppercase">
-                <h3 className="book-a-seat">Book Now</h3>
-                <h3 className="book-a-seat">Hire a Bus</h3>
-                <h3 className="book-a-seat">Manage my Bookings</h3>
+            <div className="flex justify-around header font-semibold mx-auto uppercase items-center">
+                <button className=' py-2 grow basis-1/2 uppercase font-semibold'>Book Now</button>
+                <button className=' py-2 px-1 font-semibold grow basis-1/2 uppercase'>Hire a Bus</button>
+                <button className=' py-2 px-1 font-semibold grow basis-1/2 uppercase'>Manage Bookings</button>
             </div>
             <div className="booking-type flex justify-between py-6">
-                <button className='active py-2 px-10'>One Way</button>
-                <button className='py-4 px-6'>Round Trip</button>
+                <button className='active py-2 px-5'>One Way</button>
+                <button className='py-2 px-5'>Round Trip</button>
             </div>
             <div className="booking-form">
                 <div className="form">
