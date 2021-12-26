@@ -10,6 +10,7 @@ import About from './pages/About';
 import Home from './pages/Home';
 import Terminals from './pages/Terminals';
 import Contact from './pages/Contact';
+import Terms from './pages/Terms';
 
 
 function App() {
@@ -28,6 +29,8 @@ function App() {
         <Route path="/about" element={<About />}/>
         <Route path="/terminals" element={<Terminals />} />
         <Route path="/contact" element={<Contact />} />
+        <Route path="/terms" element={<Terms />} />
+        <Route path="/about" element={<About />} />
       </Routes>
         }
       </Router>

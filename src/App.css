@@ -12,13 +12,44 @@ body{
 
 .booking{
     background-color: white;
-    position: absolute;
-    width: 92%;
-    margin-left: 1rem;
-    margin-right: 2rem;
-    top: 35rem;
+    width: 90%;
+    left: 0;
+    right: 0;
+    top: 36rem;
+    margin: auto;
 }
+/* @media (min-height: 600px && 750px) {
+    
+} */
+@media (min-width:768px) {
+    .booking {
+        top: 42rem;
+    }
+    .blank{
+        min-height: 25vh;
+    }
+}
+@media (min-width:1024px) {
+    .booking {
+        top: 65rem;
+    }
+}
+@media (min-width:1200px) {
+    .booking {
+        top: 30rem;
+        width: 80%;
+    }
+}
+/* @media (min-width:1024px) {
+    .booking {
+        transform: translate(-67%, -25%);
+    }
+}
+ */
 
+h2,h3,h4{
+    font-family: 'montserrat';
+}
 .toggleBtn{
     position: absolute;
     top: 7px;
