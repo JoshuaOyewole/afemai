@@ -2,7 +2,7 @@ import React from 'react'
 
 function Contact() {
     return (
-        <section className='contact-us lg:grid py-20 px-8 md:px-16 lg:grid-cols-2 lg:gap-x-4'>
+        <section className='contact-us lg:grid py-20 px-8 md:px-16 lg:grid-cols-2 lg:gap-x-4 lg:px-32'>
             <div className="text-section lg:self-center">
                 <h2 className="text-heading text-primary  pb-5 text-center text-3xl font-bold font-poppins">
                     Need to talk to us?
@@ -17,15 +17,15 @@ function Contact() {
                 </h3>
                 <form method='POST' name='contact us' className='' netlify='true' >
                     <div className="form-control my-6 w-full">
-                        <input type="text" name="fullnames" id="fullnames" placeholder='Fullnames' className='border py-3 w-full px-4 focus:border-primary'/>
+                        <input type="text" name="fullnames" id="fullnames" placeholder='Fullnames' className='border py-2 w-full px-4 focus:border-primary'/>
                     </div>
                     <div className="form-control my-6">
-                        <input type="number" name="tel" id="tel" className='border py-3 w-full px-4 focus:border-primary' placeholder='Phone Number'/>
+                        <input type="number" name="tel" id="tel" className='border py-2 w-full px-4 focus:border-primary' placeholder='Phone Number'/>
                     </div>
                     <div className="form-control my-6">
                         <textarea name="msg" id="msg" placeholder='Enter your Message' className=' py-4 w-full px-4 resize-none border'></textarea>
                     </div>
-                    <input type="submit" value="Submit" className='uppercase bg-primary px-10 py-3 text-white focus:border-primary'/>
+                    <input type="submit" value="Submit" className='uppercase bg-primary px-10 py-2 text-white focus:border-primary'/>
                 </form>
             </div>
         </section>

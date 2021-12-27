@@ -9,7 +9,7 @@ function Footer() {
 
     return (
         <>
-        <div className='footer bg-footer py-10 px-8 text-white font-Montserrat md:grid md:grid-cols-4 md:px-16'>
+        <div className='footer bg-footer py-10 px-8 text-white font-Montserrat md:grid md:grid-cols-4 md:px-16 lg:px-32'>
             <div className='py-2'>
                 <h3 className='footer-header uppercase font-Montserrat font-bold text-footerHeading text-sm'>
                     Connect with us
